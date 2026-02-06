@@ -1,0 +1,7 @@
+{
+  "name": "Zouba",
+  "description": "تطبيق سهل وسلس لإدارة المصاريف اليومية وطلبات التوصيل وحساب الأرباح والنسب",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

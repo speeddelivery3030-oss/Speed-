@@ -1,0 +1,41 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001f3f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003366;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="245" fill="url(#bgGrad)" stroke="white" stroke-width="12"/>
+  
+  <!-- Red Speed Lines (Left Side) -->
+  <rect x="70" y="160" width="80" height="20" rx="10" fill="#ff0000" />
+  <rect x="50" y="200" width="100" height="20" rx="10" fill="#ff0000" />
+  <rect x="70" y="240" width="80" height="20" rx="10" fill="#ff0000" />
+
+  <!-- Scooter & Rider Icon (White Silhouette) -->
+  <g transform="translate(140, 100) scale(0.9)">
+    <!-- Rider Head -->
+    <circle cx="160" cy="50" r="25" fill="white"/>
+    <!-- Rider Body -->
+    <path d="M130 80 q30 0 60 20 q10 20 0 50 h-60 z" fill="white"/>
+    <!-- Box -->
+    <rect x="200" y="90" width="70" height="60" rx="5" fill="white"/>
+    <!-- Scooter Front -->
+    <path d="M120 150 l-30 60 h-20 l20 -80 z" fill="white"/>
+    <!-- Scooter Body -->
+    <path d="M80 210 h150 v20 h-150 z" fill="white"/>
+    <!-- Wheels -->
+    <circle cx="90" cy="240" r="25" fill="white"/>
+    <circle cx="220" cy="240" r="25" fill="white"/>
+    <!-- Handlebars -->
+    <path d="M110 150 l30 -10 l10 20" fill="none" stroke="white" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text -->
+  <text x="256" y="360" font-family="Arial, sans-serif" font-weight="900" font-size="95" fill="white" text-anchor="middle" letter-spacing="2" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">SPEED</text>
+  <text x="256" y="420" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="white" text-anchor="middle" letter-spacing="6">DELIVERY</text>
+  <text x="256" y="470" font-family="Arial, sans-serif" font-weight="bold" font-size="28" fill="white" text-anchor="middle" letter-spacing="2">OUARGLA</text>
+</svg>
